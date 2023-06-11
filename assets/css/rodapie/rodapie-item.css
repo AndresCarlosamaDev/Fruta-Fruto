@@ -1,0 +1,6 @@
+.rodapie__item{
+    list-style: none;
+    width: 2rem;
+    margin-right: 2.5rem;
+    transform: scale(.7);
+}

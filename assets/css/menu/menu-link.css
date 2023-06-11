@@ -1,0 +1,26 @@
+.menu__link {
+    text-decoration: none;
+    color: grey;
+    margin-left: 1rem;
+}
+.menu__link--activo {
+    text-decoration: none;
+    color: grey;
+    margin-left: 1rem;
+}
+
+.menu__link:hover {
+    color:black;
+    background-color: #DA2B1F;
+    border-radius: 10px;
+    padding: 1rem;
+    transition: .5s all;
+}
+
+.menu__link--activo:hover {
+    color:black;
+    background-color: #DA2B1F;
+    border-radius: 10px;
+    padding: 1rem;
+    transition: .5s all;
+}
