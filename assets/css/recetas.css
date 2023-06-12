@@ -4,3 +4,17 @@
     flex-wrap: wrap;
     padding: 5rem 0 0 5rem;
 }
+
+/* RESPONSIVE */
+
+/* @media screen and (min-width: 0px){
+    .recetas{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .recetas{
+        flex-direction: row;
+    }
+} */

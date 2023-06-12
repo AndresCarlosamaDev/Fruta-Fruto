@@ -6,12 +6,26 @@
     margin-right: 5rem;
     width: 20rem;
     border-radius: 10px;
-    width: calc(33% - 5rem);
-    /* box-shadow: 10px 10px 32px -19px rgba(0, 0, 0, 0.2); */
 }
 
-/* .receta:hover{
-    transform: scale(1.055);
-    box-shadow: 10px 10px 32px -19px rgba(0, 0, 0, 1);
-    transition: 0.4s all ease-in-out;
-} */
+/* RESPONSIVE */
+
+@media screen and (min-width: 0px){
+    .receta{
+        width: 100%
+    }
+}
+
+@media screen and (min-width: 768px){
+    .receta{
+        margin-right: 2.5rem;
+        width: calc(47.5% - 2.5rem);
+    }
+}
+
+@media screen and (min-width: 992px){
+    .receta{
+        margin-right: 5rem;
+        width: calc(33% - 5rem);
+    }
+}

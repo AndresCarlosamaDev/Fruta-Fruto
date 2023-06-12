@@ -1,7 +1,20 @@
 .sobre__descripcion {
     color: gray;
-    font-size: 1.7rem;
     font-weight: 200;
-    padding: 0 5rem;
     line-height: normal;
+}
+
+/* RESPONSIVE */
+@media screen and (min-width: 0px){
+    .sobre__descripcion{
+        font-size: 1.6rem;
+        padding: 0 1rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .sobre__descripcion{
+        font-size: 1.7rem;
+        padding: 0 5rem;
+    }
 }
